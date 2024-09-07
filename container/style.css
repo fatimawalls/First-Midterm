@@ -1,0 +1,317 @@
+/* Import the Bai Jamjuree font */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    background-color: #f1f5f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #e5f4fb;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.header-bg {
+    width: 100%;
+    height: auto;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4c545d; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #9fabb2; 
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ios {
+    background-color: #26baa4; 
+}
+
+.btn-ios:hover {
+    background-color: #1fa68e;
+}
+
+.btn-mac {
+    background-color: #6173ff; 
+}
+
+.btn-mac:hover {
+    background-color: #4a5ecc;
+}
+
+/* Features Section */
+.features-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.feature-image {
+    max-width: 50%; /* Adjust width to fit nicely on the left */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.features-list {
+    max-width: 50%; /* Keep the text section on the right */
+    text-align: left;
+}
+
+.features-list .feature {
+    margin-bottom: 20px;
+}
+
+.features {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    color: #4c545d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.features p {
+    font-size: 1rem;
+    color: #9fabb2;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.feature-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: left;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #4c545d;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #9fabb2;
+}
+
+.access {
+    padding: 60px 20px;
+    background-color: #e5f4fb;
+    text-align: center;
+}
+
+.access h2 {
+    font-size: 2rem;
+    color: #4c545d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.access p {
+    font-size: 1rem;
+    color: #9fabb2;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.access-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.workflow {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.workflow h2 {
+    font-size: 2rem;
+    color: #4c545d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.workflow-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.workflow-feature {
+    max-width: 300px;
+    text-align: left;
+}
+
+.workflow-feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.workflow-feature h3 {
+    font-size: 1.5rem;
+    color: #4c545d;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.workflow-feature p {
+    font-size: 1rem;
+    color: #9fabb2;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.partner-logos div img {
+    max-width: 150px;
+    height: auto;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+    color: #4c545d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #9fabb2;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #6173ff; 
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .features-list, .workflow-features, .partner-logos, .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature, .workflow-feature {
+        max-width: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
